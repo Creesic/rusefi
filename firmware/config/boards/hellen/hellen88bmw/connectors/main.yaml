@@ -180,6 +180,24 @@ pins:
     id: EFI_ADC_7
     class: analog_inputs
     ts_name: Aux BARO
+    
+    - pin: Aux PPS
+# H144_IN_AUX2
+    id: EFI_ADC_14
+    class: analog_inputs
+    ts_name: Aux PPS
+    
+    - pin: Aux TPS2
+# H144_IN_AUX1
+    id: EFI_ADC_8
+    class: analog_inputs
+    ts_name: Aux TPS
+    
+    - pin: Aux TPS3
+# H144_IN_AUX3
+    id: EFI_ADC_15
+    class: analog_inputs
+    ts_name: Aux TPS2
 
 info:
   title: Hellen 88 BMW
